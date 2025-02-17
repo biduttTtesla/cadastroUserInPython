@@ -1,0 +1,21 @@
+.divFormAddUser{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.divFormAddUser form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.divFormAddUser form label{
+    display: flex;
+    flex-direction: column;
+}
+
+.divFormAddUser form button{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+.DivTable{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonDelet{
+    background-color: red;
+    padding: .4rem 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonEdit{
+    background-color: yellow;
+    border: none;
+    padding: .4rem 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.aButtonAddUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.aButtonAddUser button{
+    padding: .4rem 3rem;
+    background-color: rgb(99, 99, 255);
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+
+button{
+    cursor: pointer;
+}
