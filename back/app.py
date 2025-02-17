@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}}) # Permitir requisições de http://localhost:8080
 
 # Configuração do PostgreSQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:123456@localhost/usuarios'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://:@localhost/usuarios'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
