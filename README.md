@@ -14,7 +14,7 @@ Este projeto é uma aplicação web full stack que utiliza Flask no back-end, Po
 
 ## ⚙️ Como Executar o Projeto
 
-### 1. Clone o repositório
+###  ° Passos a se fazer
 
 ```bash
 git clone https://github.com/seu-usuario/seu-projeto.git
